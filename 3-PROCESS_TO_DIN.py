@@ -131,3 +131,5 @@ while tentativas < 5:  # Tente até 5 vezes
 # Se não foi possível processar após tentativas, exibe mensagem de erro
 if tentativas == 5:
     print(f'Erro: Não foi possível acessar o arquivo {input_file} após várias tentativas.')
+
+#fiop
