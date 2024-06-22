@@ -2,10 +2,12 @@ import pandas as pd
 import os
 import re
 import time
+import INICIAL_SETINGS
+
 
 # Caminho para o arquivo de entrada e saída
-input_file_path = r'C:\Users\Glauber Marques\Downloads\Marcilon2\quebra-linha.xlsx'
-output_file_path = r'C:\Users\Glauber Marques\Downloads\Marcilon2\2-CHOOSE_TO_FACT.xlsx'
+input_file_path = os.path.join(INICIAL_SETINGS.pasta_de_processos,'quebra-linha.xlsx')
+output_file_path =os.path.join(INICIAL_SETINGS.pasta_de_processos,'2-CHOOSE_TO_FACT.xlsx')
 
 # Leitura do arquivo Excel
 df = pd.read_excel(input_file_path, header=None)

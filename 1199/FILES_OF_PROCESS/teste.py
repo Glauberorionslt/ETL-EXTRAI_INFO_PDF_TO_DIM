@@ -1,0 +1,3 @@
+import INICIAL_SETINGS
+
+print(INICIAL_SETINGS.pasta_de_processos)
